@@ -1,0 +1,71 @@
+body {
+	background: black;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: "Oxanium";
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+}
+
+.postcard-header h1 {
+	width: 80%;
+	margin: 0;
+	padding: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p {
+	padding-left: 10px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	color: darkgrey;
+	border: 0;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+	margin-top: 0;
+}
+
+button {
+	background-color: darkgrey;
+	padding: 5px;
+	border: none;
+}
+
+input,
+button {
+	font-family: "Oxanium";
+}
